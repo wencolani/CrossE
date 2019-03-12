@@ -1,7 +1,5 @@
 # CrossE
 
-this is the code of CrossE in paper "Interaction Embeddings for Prediction and Explanation in Knowledge Graphs"(WSDM 2019)
-
 ## INTRODUCTION
 
 paper: Interaction Embeddings for Prediction and Explanation in Knowledge Graphs. (WSDM'2019)
