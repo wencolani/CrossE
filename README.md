@@ -12,7 +12,7 @@ example: python3 CrossE.py --batch 4000 --data ../data/FB15k/ --dim 300 --eval_p
 
 ## DATASET
 
-There are three benchmark datasets used in this paper, WN18, FB15k and FB15k-237.
+There are three benchmark datasets used in this paper, WN18, FB15k and FB15k-237. They are compressed in data.zip.
 
 ## CITE
 
