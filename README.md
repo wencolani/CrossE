@@ -14,8 +14,6 @@ example: python3 CrossE.py --batch 4000 --data ../data/FB15k/ --dim 300 --eval_p
 
 There are three benchmark datasets used in this paper, WN18, FB15k and FB15k-237.
 
-You can also download them [here](https://github.com/thunlp/OpenKE/tree/master/benchmarks/FB15K).
-
 ## CITE
 
 If the codes help you or the paper inspire your, please cite following paper:
