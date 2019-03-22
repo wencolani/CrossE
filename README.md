@@ -6,7 +6,7 @@ paper: Interaction Embeddings for Prediction and Explanation in Knowledge Graphs
 
 ## RUN
 
-example: python3 CrossE.py --batch 4000 --data ../data/FB15k/ --dim 300 --eval_per 20 --loss_weight 1e-6 --lr 0.01 --max_iter 500 --save_per 20 
+example: python3 CrossE.py --batch 4000 --data ../datasets/FB15k/ --dim 300 --eval_per 20 --loss_weight 1e-6 --lr 0.01 --max_iter 500 --save_per 20 
 
 ## DATASET
 
