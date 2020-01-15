@@ -440,7 +440,7 @@ def test_evaluation(testing_data, head_pred, tail_pred, hr_t, tr_h):
 def main(_):
     parser = argparse.ArgumentParser(description='CrossE.')
     parser.add_argument('--methodname', dest='method_name', type= str, help = 'Method name', default = 'CrossE.py')
-    parser.add_argument('--data', dest='data_dir', type=str, help="Data folder", default='../data/FB15k/')
+    parser.add_argument('--data', dest='data_dir', type=str, help="Data folder", default='./datasets/FB15k/')
     parser.add_argument('--lr', dest='lr', type=float, help="Learning rate", default=0.01)
     parser.add_argument("--dim", dest='dim', type=int, help="Embedding dimension", default=200)
     parser.add_argument("--batch", dest='batch', type=int, help="Batch size", default=4000)
