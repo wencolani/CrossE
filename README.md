@@ -43,7 +43,21 @@ Following is result of Hit@10 on WN18 and FB15k dataset
 
 <img src="./figures/experiment.jpg" alt="loss_function.jpg" style="zoom:50%;" />
 
-## How to Cite
+# Use the Code 
+### Requirements
+
+This is implemented with Tensorflow 1.X 
+
+### Training and Evaluation
+
+To train and evaluate the model(s) in the paper, run this command:
+
+```train
+python3 CrossE.py --batch 4000 --data ../datasets/FB15k/ --dim 300 --eval_per 20 --loss_weight 1e-6 --lr 0.01 --max_iter 500 --save_per 20
+```
+
+
+# How to Cite
 
 If you use or extend our work, please cite the following paper:
 
