@@ -1,17 +1,11 @@
 
-<p align="center">
-    <a href="https://github.com/zjunlp/openue"> <img src="https://raw.githubusercontent.com/zjunlp/openue/master/docs/images/logo_zju_klab.png" width="400"/></a>
-</p>
-
-<p align="center">
-    <strong>CrossE is a knowledge graph emebdding method proved to be good at providing explanations</strong>
-</p>
-
+# CrossE 
+CrossE is a knowledge graph emebdding method proved to be good at providing explanations</strong>
 
 This repository is the official introduction of **[Interaction Embeddings for Prediction and Explanation in Knowledge Graphs](https://dl.acm.org/doi/10.1145/3289600.3291014)** . This paper has been accepted by **WSDM 2019** main conference. 
 
 
-# Brief Introduction
+## Brief Introduction
 
 
 ### Abstract
@@ -56,7 +50,7 @@ python3 CrossE.py --batch 4000 --data ../datasets/FB15k/ --dim 300 --eval_per 20
 ```
 
 
-# How to Cite
+## How to Cite
 
 If you use or extend our work, please cite the following paper:
 
